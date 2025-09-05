@@ -35,3 +35,5 @@ Por exemplo: caso a fonte de publicação seja a pasta /docs no branch main, o a
 
 Caso a publicação seja feita por meio de um fluxo de trabalho do GitHub Actions, o artefato gerado para implantação deve conter o arquivo de entrada na raiz. 
 Em vez de manter esse arquivo diretamente no repositório, você pode configurar o fluxo de trabalho do GitHub Actions para criá-lo automaticamente durante a execução.
+
+Acesse `<user>.github.io` para ver seu novo site. Observe que poderá levar até 10 minutos para que as alterações no seu site sejam publicadas depois que você efetuar push das alterações no GitHub.
