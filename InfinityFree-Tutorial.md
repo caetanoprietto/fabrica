@@ -1,6 +1,8 @@
 <h1 align="center">Tutorial para o InfinityFree</h1>
 Aqui será ensinado como utilizar o InfinityFree para desenvolver e hospedar uma aplicação web completa.
 
+Exemplo utilizado no tutorial: [lista_tarefas.zip](https://github.com/user-attachments/files/22412979/lista_tarefas.zip)
+
 # 1º Passo: Criar uma conta no InfinityFree
 
 1. Acesse o site: https://www.infinityfree.com
@@ -49,6 +51,7 @@ Aqui será ensinado como utilizar o InfinityFree para desenvolver e hospedar uma
 
 3. Envie seus arquivos do site (HTML, CSS, JS, PHP, imagens etc.).
     * O arquivo principal deve se chamar `index.html` ou `index.php`.
+    * Se estiver utilizando o exemplo do tutorial, importe todos os arquivos dentro da pasta `htdocs`.
   
 # 4° Passo: Criar banco de dados
 
@@ -56,9 +59,19 @@ Aqui será ensinado como utilizar o InfinityFree para desenvolver e hospedar uma
 
    <img width="1463" height="537" alt="Captura de tela de 2025-09-05 15-57-48" src="https://github.com/user-attachments/assets/c3ba0e84-ee07-4792-861b-0e4509063173" />
 
-3. Crie um banco de dados.
+2. Crie um banco de dados.
 
-4. Anote os dados de conexão (serão usados no seu site/app).
+3. Clique em `phpMyAdmin`. 
+
+<img width="1160" height="268" alt="Captura de tela de 2025-09-18 15-46-02" src="https://github.com/user-attachments/assets/79f5a04f-66ee-4e07-a601-7bb00455e114" />
+
+4. Crie sua tabela adicionando um nome à ela e clicando em `Executar`.
+
+<img width="1603" height="118" alt="Captura de tela de 2025-09-18 15-51-00" src="https://github.com/user-attachments/assets/550a7f50-6122-4fac-84ff-39d60d5c16d9" />
+
+5. Crie as colunas da tabela preenchendo as lacunas com as informações necessárias, quando pronto, clique em `Salvar`.
+
+<img width="1572" height="392" alt="Captura de tela de 2025-09-18 15-57-37" src="https://github.com/user-attachments/assets/0dd6b1ec-ee91-405c-8775-b3e811bf96eb" />
 
 # 5° Passo: Testar seu site
 
